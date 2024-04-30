@@ -12,9 +12,9 @@ import {
  import Nav from "./Components/Nav";
 
 const App = () => (
-  <main className="relative">
+  <main className="relative px-5">
       <Nav /> 
-    <section className="xl:padding-1 wide:padding-r padding-b"></section>
+    <section className=" xl:padding-l wide:padding-r padding-b"></section>
     <Hero />
     <section className="padding">
       <PopularProducts />
